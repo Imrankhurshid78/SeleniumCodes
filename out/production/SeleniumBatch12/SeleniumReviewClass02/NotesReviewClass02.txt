@@ -1,0 +1,39 @@
+            Selenium Review Class 02
+
+ <from t="19048 aa">
+    <div text="mydiv">
+        <label name="myid">
+        <input t="ad 123 34"/>
+        <label name="id"/>
+        <input t="ad 123 34"/>
+    <div>
+ </from>
+
+ advance Xpath:
+ get to the nearest sibling, parents or ancestor first
+ and then have acces to desired tag
+
+
+ //label[@name="myid"]/following-sibling::input
+ says get me tag with name "label" whose attribute name has value"myid"
+ and then get me following-sibling which is "input"
+
+*****in class Example used**************
+//label[text()='Enter message']/following-sibling::input -->>Through Following Sibling
+//input[@id="user message"]/preceding-sibling::label    --->>Through Preceding Sibling
+//label[@text()="Enter message"]/parent::div            ---->>Through parents
+//label[@text()="Enter message"]/ancestor::form         ---->>Through ancestor
+
+
+*******************************
+driver.findElement(By.xpath/css/name/id/tag/etc(""));
+
+********************Radio buttons************************************
+
+
+
+**********DropDowns************
+Whenever we have drop downs that are mad using select class
+we can use Select class in selenium to deal with them
+The Process:
+1.  get to select tag for that drop down using driver
