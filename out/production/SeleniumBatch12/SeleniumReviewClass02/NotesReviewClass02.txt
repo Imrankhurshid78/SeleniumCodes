@@ -36,4 +36,4 @@ driver.findElement(By.xpath/css/name/id/tag/etc(""));
 Whenever we have drop downs that are mad using select class
 we can use Select class in selenium to deal with them
 The Process:
-1.  get to select tag for that drop down using driver
+1.  get to select tag for that drop down using driver.findelement

@@ -22,7 +22,7 @@ To handle JS alerts we only have 4 methods:
 3. getText() -
 4. sendKeys()
 
-To handle authentication alrets we need to pass username & password in th URL
+To handle authentication alerts we need to pass username & password in th URL
 http://username:password@URL
 
 

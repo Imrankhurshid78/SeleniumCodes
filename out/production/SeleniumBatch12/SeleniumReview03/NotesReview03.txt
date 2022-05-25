@@ -1,0 +1,40 @@
+***********Review 03 *******************
+
+Alerts:
+1-Web Based Alerts---->>>HTML--->>can be dealt using selenium
+2- JavaScript Alerts--->>>
+3- Window based Alerts-->>>can't be handled with Selenium
+
+
+
+Frame:
+need to swith to the frame in order to deal with desired element
+for switching you use driver.switchto.fram();
+there are 3 methods
+1-
+<html>
+    <body>
+
+
+    </body>
+<html>
+
+click on the check box that resides inside another frame....
+
+
+Explicit wait
+
+ WebDriverWait wait=new WebDriverWait(driver,20);
+
+ why the timeout is important?
+
+
+
+
+        wait.until(ExpectedConditions.visibilityOfElementLocated
+
+
+        use implicit wait when the element is not even in the dom/ needs to appear
+
+        and use explicit wait if the element has certain conditon associated with it like
+        visibility, clickability, e.t.c
